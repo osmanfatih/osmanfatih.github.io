@@ -1,16 +1,23 @@
----
-layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
----
+# About Me
 
-My name is Inigo Montoya. I have the following qualities:
+Hello, I'm Osman Fatih Kilic, an Electrical and Electronics Engineer with a passion for cutting-edge technologies and a focus on distributed systems and natural language processing (NLP).
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+## Education
 
-What else do you need?
+I earned my Bachelor of Science degree in Electrical and Electronics Engineering from Bilkent University in 2015, followed by a Master of Science degree in the same field from Bilkent University in 2017. During my master's, I specialized in distributed online learning algorithms, delving into the fascinating realm of machine learning.
 
-### My story
+## Research Experience
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+In 2018, I took a significant step in my academic journey by working as a research assistant at the University of Texas at Austin. Here, I contributed to the field of communication-constrained distributed online learning systems, which has evolved into the now widely recognized domain of federated learning.
+
+## Professional Journey
+
+Since my research stint, I've been immersed in the industry, particularly as an NLP engineer. Over the years, I've honed my skills in data extraction, classification, and the development of conversational systems. My expertise lies in leveraging natural language processing to solve complex problems and enhance user experiences.
+
+## Current Endeavors
+
+Currently, I am actively engaged in structured/unstructured data extraction with LLMs, where I continue to explore the intersection of technology and innovation.
+
+Feel free to reach out if you share similar interests or have exciting opportunities for collaboration!
+
+[Contact Me](osmanfatihkilic@gmail.com)
