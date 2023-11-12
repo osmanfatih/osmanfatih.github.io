@@ -20,4 +20,4 @@ Currently, I am actively engaged in structured/unstructured data extraction with
 
 Feel free to reach out if you share similar interests or have exciting opportunities for collaboration!
 
-[Contact Me](osmanfatihkilic@gmail.com)
+[Contact Me](mailto:osmanfatihkilic@gmail.com)
