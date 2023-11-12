@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Osman Fatih Kilic's Journey
+title: Osman Fatih's Journey
 
 # Your name to show in the footer
 author: Osman Fatih Kilic
@@ -21,10 +21,9 @@ author: Osman Fatih Kilic
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Repositories:
+    - Tiktok Parser: "https://github.com/osmanfatih/tiktok-scraper"
+    - LLM Based Movie Rec: "https://github.com/osmanfatih/movie-finder-llm"
 
 ################
 # --- Logo --- #
@@ -120,7 +119,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "osman faith kilic,faith kilic,software, programmer, machine learning, engineer"
+#keywords: "osman faith kilic, faith kilic, osman kilic, software, programming, machine learning, natural language processing, python, pytorch, sklearn, pandas, portfolio, resume, expertise, skills"
 
 ######################################
 # --- Colours / background image --- #
