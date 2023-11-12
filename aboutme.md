@@ -1,3 +1,7 @@
+---
+title: About Me
+subtitle: Little info about where I come from
+---
 # About Me
 
 Hello, I'm Osman Fatih Kilic, an Electrical and Electronics Engineer with a passion for cutting-edge technologies and a focus on distributed systems and natural language processing (NLP).
