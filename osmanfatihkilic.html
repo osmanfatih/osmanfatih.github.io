@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Osman Fatih Kilic</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #fafaf9;
+  --text: #1c1917;
+  --muted: #78716c;
+  --accent: #a8a29e;
+  --border: #e7e5e4;
+  --tag-bg: #f5f5f4;
+}
+
+body {
+  font-family: 'Inter', -apple-system, system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Hero */
+header {
+  padding: 120px 0 80px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: var(--muted);
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.contact-links a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact-links a:hover { color: var(--text); }
+
+/* Sections */
+section {
+  padding: 40px 0;
+  border-top: 1px solid var(--border);
+}
+
+h2 {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+  margin-bottom: 28px;
+}
+
+.about p {
+  color: var(--text);
+  font-size: 16px;
+  max-width: 520px;
+}
+
+/* Experience */
+.role {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 6px 0;
+  gap: 16px;
+}
+
+.role-info {
+  font-size: 15px;
+}
+
+.role-company {
+  font-weight: 500;
+}
+
+.role-title {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.role-date {
+  font-size: 13px;
+  color: var(--accent);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Education */
+.edu-item {
+  padding: 4px 0;
+  font-size: 15px;
+}
+
+.edu-degree { font-weight: 500; }
+.edu-detail { color: var(--muted); font-size: 14px; }
+
+/* Awards */
+.award-item {
+  padding: 3px 0;
+  font-size: 15px;
+}
+.award-year { color: var(--muted); font-size: 13px; }
+
+/* Publications */
+.pub {
+  padding: 5px 0;
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.pub-venue {
+  color: var(--muted);
+}
+
+/* Skills */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  font-size: 13px;
+  padding: 5px 14px;
+  background: var(--tag-bg);
+  border-radius: 100px;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+/* Footer */
+footer {
+  padding: 60px 0 80px;
+  border-top: 1px solid var(--border);
+  font-size: 13px;
+  color: var(--accent);
+}
+
+footer a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+footer a:hover { color: var(--text); }
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--text);
+  color: var(--bg);
+  transition: opacity 0.2s;
+}
+
+.social-icons a:hover { opacity: 0.7; }
+
+.social-icons svg {
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 480px) {
+  header { padding: 80px 0 60px; }
+  h1 { font-size: 26px; }
+  .role { flex-direction: column; gap: 2px; }
+  .role-date { font-size: 12px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>Osman Fatih Kilic</h1>
+  <p class="subtitle">ML Engineer Team Lead · Istanbul</p>
+  <div class="contact-links">
+    <a id="email-link" href="#">Email</a>
+    <a href="https://linkedin.com/in/osmanfatihkilic" target="_blank">LinkedIn</a>
+  </div>
+</header>
+
+<section class="about">
+  <h2>About</h2>
+  <p>Machine learning engineer with a decade of experience spanning NLP, distributed systems, and applied AI. Currently leading an ML team building intelligent valuation systems. Background in signal processing research with publications in IEEE venues.</p>
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <div class="role"><div class="role-info"><span class="role-company">Just Appraised</span> <span class="role-title">— ML Engineer Team Lead</span></div><span class="role-date">2026–Present</span></div>
+  <div class="role"><div class="role-info"><span class="role-company">Just Appraised</span> <span class="role-title">— Senior ML Engineer II</span></div><span class="role-date">2025–2026</span></div>
+  <div class="role"><div class="role-info"><span class="role-company">Just Appraised</span> <span class="role-title">— Senior ML Engineer</span></div><span class="role-date">2022–2025</span></div>
+  <div class="role"><div class="role-info"><span class="role-company">Just Appraised</span> <span class="role-title">— ML Engineer</span></div><span class="role-date">2021–2022</span></div>
+  <div class="role"><div class="role-info"><span class="role-company">Yapi Kredi Technology</span> <span class="role-title">— Junior ML Engineer</span></div><span class="role-date">2019–2021</span></div>
+  <div class="role"><div class="role-info"><span class="role-company">CognitiveScale</span> <span class="role-title">— ML Engineer Intern</span></div><span class="role-date">2018</span></div>
+  <div class="role"><div class="role-info"><span class="role-company">UT Austin</span> <span class="role-title">— Research Assistant</span></div><span class="role-date">2017–2018</span></div>
+  <div class="role"><div class="role-info"><span class="role-company">Bilkent University</span> <span class="role-title">— Research Assistant</span></div><span class="role-date">2015–2017</span></div>
+  <div class="role"><div class="role-info"><span class="role-company">Turkish Aerospace (TAI)</span> <span class="role-title">— Industry Co-op</span></div><span class="role-date">2014–2015</span></div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="edu-item">
+    <div class="edu-degree">M.S. Electrical Engineering</div>
+    <div class="edu-detail">Bilkent University · 3.57/4.0 · 2015–2017</div>
+  </div>
+  <div class="edu-item" style="margin-top: 8px;">
+    <div class="edu-degree">B.S. Electrical Engineering</div>
+    <div class="edu-detail">Bilkent University · 3.85/4.0 · 2011–2015</div>
+  </div>
+</section>
+
+<section>
+  <h2>Awards</h2>
+  <div class="award-item"><span class="award-year">2017</span> — Research Fellowship, UT Austin</div>
+  <div class="award-item"><span class="award-year">2016</span> — IEEE Best Student Paper Award, SIU Conference</div>
+  <div class="award-item"><span class="award-year">2011–15</span> — High Honor Student & Comprehensive Scholarship, Bilkent</div>
+</section>
+
+<section>
+  <h2>Selected Publications</h2>
+  <div class="pub">Conversation Management in Task-Oriented Turkish Dialogue Agents with Dialogue Act Classification <span class="pub-venue">— KDIR, 2020</span></div>
+  <div class="pub">Large Scale Intent Detection in Turkish Short Sentences with Contextual Word Embeddings <span class="pub-venue">— KDIR, 2020</span></div>
+  <div class="pub">Domain-Independent, Task-Oriented Chatbot Creation and Conversation Policy Management Framework <span class="pub-venue">— Workshop on Hybrid Intelligence for NLP Tasks, 2020</span></div>
+  <div class="pub">Near-Optimal Distributed Estimation for a Network of Sensing Units Operating Under Communication Constraints <span class="pub-venue">— CDC, 2018</span></div>
+  <div class="pub">Team-Optimal Online Estimation of Dynamic Parameters over Distributed Networks <span class="pub-venue">— Signal Processing, 2018</span></div>
+  <div class="pub">Resource-Aware Event Triggered Distributed Estimation Over Adaptive Networks <span class="pub-venue">— Digital Signal Processing, 2017</span></div>
+  <div class="pub">An Efficient Mixture of Experts Method for Big Data Applications <span class="pub-venue">— ICASSP, 2017</span></div>
+  <div class="pub">Computationally Highly Efficient Mixture of Adaptive Filters <span class="pub-venue">— Signal Image and Video Processing, 2016</span></div>
+  <div class="pub">Adaptive Hierarchical Space Partitioning for Online Classification <span class="pub-venue">— EUSIPCO, 2016</span></div>
+  <div class="pub">Visual Guidance System for Satellite Rendezvous Applications <span class="pub-venue">— RAST, 2015</span></div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="tags">
+    <span class="tag">Python</span>
+    <span class="tag">PyTorch</span>
+    <span class="tag">TensorFlow</span>
+    <span class="tag">Scikit-Learn</span>
+    <span class="tag">XGBoost</span>
+    <span class="tag">SQL</span>
+    <span class="tag">Pandas</span>
+    <span class="tag">NumPy</span>
+    <span class="tag">OpenAI API</span>
+    <span class="tag">Hugging Face</span>
+    <span class="tag">LangChain</span>
+    <span class="tag">LlamaIndex</span>
+    <span class="tag">FAISS</span>
+    <span class="tag">Pinecone</span>
+    <span class="tag">Docker</span>
+    <span class="tag">Airflow</span>
+    <span class="tag">MLflow</span>
+    <span class="tag">Azure AI</span>
+    <span class="tag">AWS</span>
+    <span class="tag">FastAPI</span>
+    <span class="tag">Git</span>
+    <span class="tag">CI/CD</span>
+    <span class="tag">Elasticsearch</span>
+    <span class="tag">PostgreSQL</span>
+  </div>
+</section>
+
+<footer>
+  <div class="social-icons">
+    <a id="footer-email" href="#" aria-label="Email">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+    </a>
+    <a href="https://github.com/osmanfatih" target="_blank" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 00-3.8 23.38c.6.1.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61a3.18 3.18 0 00-1.33-1.76c-1.09-.74.08-.73.08-.73a2.52 2.52 0 011.84 1.24 2.56 2.56 0 003.5 1 2.56 2.56 0 01.76-1.6c-2.67-.3-5.47-1.33-5.47-5.93a4.64 4.64 0 011.24-3.22 4.3 4.3 0 01.12-3.18s1-.32 3.3 1.23a11.38 11.38 0 016 0c2.28-1.55 3.29-1.23 3.29-1.23a4.3 4.3 0 01.12 3.18 4.64 4.64 0 011.23 3.22c0 4.61-2.8 5.63-5.48 5.92a2.87 2.87 0 01.82 2.23v3.29c0 .32.21.7.82.58A12 12 0 0012 .3"/></svg>
+    </a>
+    <a href="https://linkedin.com/in/osmanfatihkilic" target="_blank" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05a3.74 3.74 0 013.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 11-.01-4.13 2.06 2.06 0 010 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77A1.75 1.75 0 000 1.73v20.54A1.75 1.75 0 001.77 24h20.45A1.75 1.75 0 0024 22.27V1.73A1.75 1.75 0 0022.22 0z"/></svg>
+    </a>
+  </div>
+  <span>Istanbul, Turkey</span>
+</footer>
+
+</div>
+<script>
+(function(){var u='osmanfatihkilic',d='gmail.com',e=u+'@'+d,m='mai'+'lto:'+e;
+document.getElementById('email-link').href=m;
+document.getElementById('footer-email').href=m;})();
+</script>
+</body>
+</html>
